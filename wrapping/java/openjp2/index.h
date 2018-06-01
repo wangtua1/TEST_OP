@@ -1,19 +1,7 @@
 /*
- * The copyright in this software is being made available under the 2-clauses 
- * BSD License, included below. This software may be subject to other third 
- * party and contributor rights, including patent rights, and no such rights
- * are granted under this license.
- *
  * Copyright (c) 2002-2014, Universite catholique de Louvain (UCL), Belgium
  * Copyright (c) 2002-2014, Professor Benoit Macq
- * Copyright (c) 2003-2014, Antonin Descampe
- * Copyright (c) 2003-2009, Francois-Olivier Devaux
- * Copyright (c) 2005, Herve Drolon, FreeImage Team
- * Copyright (c) 2002-2003, Yannick Verschueren
- * Copyright (c) 2001-2003, David Janssens
- * Copyright (c) 2011-2012, Centre National d'Etudes Spatiales (CNES), France 
- * Copyright (c) 2012, CS Systemes d'Information, France
- *
+ * Copyright (c) 2003-2007, Francois-Olivier Devaux
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -37,3 +25,25 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
+
+#ifndef __J2K_INDEX_H
+#define __J2K_INDEX_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/**
+Write a structured index to a file
+@param cstr_info Codestream information 
+@param index Index filename
+@return Returns 0 if successful, returns 1 otherwise
+*/
+int write_index_file(opj_codestream_info_t *cstr_info, char *index);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __J2K_INDEX_H */
+

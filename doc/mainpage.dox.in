@@ -1,19 +1,8 @@
 /*
- * The copyright in this software is being made available under the 2-clauses 
- * BSD License, included below. This software may be subject to other third 
- * party and contributor rights, including patent rights, and no such rights
- * are granted under this license.
+ * $Id$
  *
  * Copyright (c) 2002-2014, Universite catholique de Louvain (UCL), Belgium
- * Copyright (c) 2002-2014, Professor Benoit Macq
- * Copyright (c) 2003-2014, Antonin Descampe
- * Copyright (c) 2003-2009, Francois-Olivier Devaux
- * Copyright (c) 2005, Herve Drolon, FreeImage Team
- * Copyright (c) 2002-2003, Yannick Verschueren
- * Copyright (c) 2001-2003, David Janssens
- * Copyright (c) 2011-2012, Centre National d'Etudes Spatiales (CNES), France 
- * Copyright (c) 2012, CS Systemes d'Information, France
- *
+ * Copyright (c) 2011, Mickael Savinaud, Communications & Systemes <mickael.savinaud@c-s.fr>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -37,3 +26,37 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
+
+/*! \mainpage OpenJPEG v@OPENJPEG_VERSION@ Documentation
+*
+* \section intro Introduction
+* This manual documents the low-level OpenJPEG C API.\n
+* The OpenJPEG library is an open-source JPEG 2000 library developed in order to promote the use of JPEG 2000.\n
+* This documents is focused on the main part of the library which try to implement Part 1 and Part 2 of the JPEG2000 norm.\n
+*
+* \section home Home page
+*
+* The Home Page of the OpenJPEG library can be found at:
+*
+* http://code.google.com/p/openjpeg/
+*
+* More information about the OpenJPEG library is available here:
+*
+* http://www.openjpeg.org/
+*
+* The OpenJPEG mailing list is located here:
+*
+* http://groups.google.com/group/openjpeg
+*
+* All the source code is online and can be retrieved using svn from here:
+*
+* http://openjpeg.googlecode.com/svn/
+*
+* \section license License
+* This software is released under the BSD license, anybody can use or modify the library, even for commercial applications.\n
+* The only restriction is to retain the copyright in the sources or the binaries documentation.\n
+* Neither the author, nor the university accept any responsibility for any kind of error or data loss which may occur during usage.
+*
+* \author OpenJPEG Team
+*
+*/
